@@ -2,8 +2,46 @@
 
 <PageTitle>Index</PageTitle>
 
-<h1>Hello, world!</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bienvenida - Nuestra Empresa</title>
+<style>
+    .directivos {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .directivo {
+        margin: 0 20px;
+    }
+    .directivo img {
+        max-width: 100%;
+        border-radius: 50%;
+    }
+    .nombre, .cargo {
+        display: block;
+    }
+</style>
+</head>
+<body>
 
-Welcome to your new app.
+<div class="directivos">
+    <div class="directivo">
+            <img src="/logos/ceo.jpg" width="200" height="200" alt="Directivo 1">
+        <span class="nombre">ING. Erick</span>
+        <span class="cargo">CEO</span>
+    </div>
+    <div class="directivo">
+            <img src="/logos/cto.png" width="200" height="200" alt="Directivo 2">
+        <span class="nombre">ING. Rudyard</span>
+            <span class="cargo">CTO</span>
+    </div>
+</div>
 
-<SurveyPrompt Title="How is Blazor working for you?" />
+</body>
+</html>
