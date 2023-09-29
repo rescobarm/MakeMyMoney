@@ -33,11 +33,11 @@
       "url": "_framework\/icudt.dat"
     },
     {
-      "hash": "sha256-cYCl6ZJ13GZZ1+4TvTtLgLoZo+bSBNuueFGI4iid36M=",
+      "hash": "sha256-wI19S\/3GrrobQCg++Qek3u3r0g+O0EwHXDOAcJCS6Kc=",
       "url": "_framework\/blazor.boot.json"
     },
     {
-      "hash": "sha256-cYMwT38IDcRoN2ER5jYz8PsH78eKQGj7had2V4U\/a2s=",
+      "hash": "sha256-CPDCelslzlNWrXoGgeX6tQgwTzGtBZcc8Ao7wr3E05k=",
       "url": "_framework\/MakeMyMoney.dll"
     },
     {
@@ -233,5 +233,5 @@
       "url": "sample-data\/weather.json"
     }
   ],
-  "version": "+KClgRfs"
+  "version": "fuU6VvKc"
 };

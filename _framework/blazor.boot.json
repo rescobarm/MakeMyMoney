@@ -7,7 +7,7 @@
   "linkerEnabled": true,
   "resources": {
     "assembly": {
-      "MakeMyMoney.dll": "sha256-cYMwT38IDcRoN2ER5jYz8PsH78eKQGj7had2V4U\/a2s=",
+      "MakeMyMoney.dll": "sha256-CPDCelslzlNWrXoGgeX6tQgwTzGtBZcc8Ao7wr3E05k=",
       "Microsoft.AspNetCore.Components.dll": "sha256-hE42oe1k9Z\/HF1zpAG8nu6s0B5dpYh\/bfC8DxUGdqYU=",
       "Microsoft.AspNetCore.Components.Web.dll": "sha256-vFyhxmfvFAitJ4JiLPxjagOq6kefT7EtwXu\/rb60iy8=",
       "Microsoft.AspNetCore.Components.WebAssembly.dll": "sha256-XYM80863rCSqPKTIFsPNKnli9FGEN6ydRhJq9gbYJAE=",
