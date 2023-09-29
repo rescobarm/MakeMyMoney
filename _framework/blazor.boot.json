@@ -7,8 +7,8 @@
   "linkerEnabled": true,
   "resources": {
     "assembly": {
-      "MakeMyMoney.dll": "sha256-3beXX08Cae5au8ljapyXZPUKxa4x1\/KKBZvKEV17EOA=",
-      "Microsoft.AspNetCore.Components.dll": "sha256-9vyZ4GoT3boU6maGk46TmLQSp1mWCbipT+CpBREUbDQ=",
+      "MakeMyMoney.dll": "sha256-cYMwT38IDcRoN2ER5jYz8PsH78eKQGj7had2V4U\/a2s=",
+      "Microsoft.AspNetCore.Components.dll": "sha256-hE42oe1k9Z\/HF1zpAG8nu6s0B5dpYh\/bfC8DxUGdqYU=",
       "Microsoft.AspNetCore.Components.Web.dll": "sha256-vFyhxmfvFAitJ4JiLPxjagOq6kefT7EtwXu\/rb60iy8=",
       "Microsoft.AspNetCore.Components.WebAssembly.dll": "sha256-XYM80863rCSqPKTIFsPNKnli9FGEN6ydRhJq9gbYJAE=",
       "Microsoft.Extensions.Configuration.Abstractions.dll": "sha256-X\/f4fDl2cuIRXeWHhK\/f2UqQbFioD+RU4a4CEh0zrrQ=",
@@ -29,7 +29,7 @@
       "System.Net.Http.dll": "sha256-V1PyV4x0p2fC7n0S3virvrQcAvweoeewTFvZIC4w25c=",
       "System.Net.Http.Json.dll": "sha256-geOqCQS1FVKTxpjzzvSJKO0C3grVXDgtrbtj7pdD18w=",
       "System.Net.Primitives.dll": "sha256-ASXBD9A+0syveymmc\/UzOs8n64Gt0\/lESe6rmhV9aK8=",
-      "System.Private.CoreLib.dll": "sha256-c0DRKNPOhbnh6F8F1nfE9Mwkj2DjDV6OV109+AU7vig=",
+      "System.Private.CoreLib.dll": "sha256-ltOJKm7izw35b1Esr1gOmn4WWkdNt+mdK97NY8Vjypk=",
       "System.Private.Uri.dll": "sha256-KT8yMvAwUQB+oKfsDctKTxPxA4JCMSOuR9rXLc8koVs=",
       "System.Runtime.dll": "sha256-wNMD6bZBnurSl2otqu9MeIUEIG7ys+DyFtfkSU6svKk=",
       "System.Runtime.InteropServices.JavaScript.dll": "sha256-dbqGRcWgNMOjykoJjO8s\/ZdZBoyVrcrE\/FLNjf\/YZu8=",

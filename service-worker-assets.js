@@ -33,15 +33,15 @@
       "url": "_framework\/icudt.dat"
     },
     {
-      "hash": "sha256-G\/EIMEF5l90YTo\/5g5lMfZ\/7kmXE60ZiL+RBa\/ahUbY=",
+      "hash": "sha256-cYCl6ZJ13GZZ1+4TvTtLgLoZo+bSBNuueFGI4iid36M=",
       "url": "_framework\/blazor.boot.json"
     },
     {
-      "hash": "sha256-3beXX08Cae5au8ljapyXZPUKxa4x1\/KKBZvKEV17EOA=",
+      "hash": "sha256-cYMwT38IDcRoN2ER5jYz8PsH78eKQGj7had2V4U\/a2s=",
       "url": "_framework\/MakeMyMoney.dll"
     },
     {
-      "hash": "sha256-9vyZ4GoT3boU6maGk46TmLQSp1mWCbipT+CpBREUbDQ=",
+      "hash": "sha256-hE42oe1k9Z\/HF1zpAG8nu6s0B5dpYh\/bfC8DxUGdqYU=",
       "url": "_framework\/Microsoft.AspNetCore.Components.dll"
     },
     {
@@ -125,7 +125,7 @@
       "url": "_framework\/System.Net.Primitives.dll"
     },
     {
-      "hash": "sha256-c0DRKNPOhbnh6F8F1nfE9Mwkj2DjDV6OV109+AU7vig=",
+      "hash": "sha256-ltOJKm7izw35b1Esr1gOmn4WWkdNt+mdK97NY8Vjypk=",
       "url": "_framework\/System.Private.CoreLib.dll"
     },
     {
@@ -149,7 +149,7 @@
       "url": "_framework\/System.Text.Json.dll"
     },
     {
-      "hash": "sha256-4K\/7AUT1BpxAdCD7yokpGK3+RaJnv5z2IMVMZFAHT3I=",
+      "hash": "sha256-x7MViRhF0cIP6UV2E0p\/JVtlJC4s2wzz0+\/ydHJrUlo=",
       "url": "MakeMyMoney.styles.css"
     },
     {
@@ -217,6 +217,14 @@
       "url": "index.html"
     },
     {
+      "hash": "sha256-9W6PkB2w03O9vnyETN3dlR7XexyduBPqC1dxH7e6Zp8=",
+      "url": "logos\/ceo.jpg"
+    },
+    {
+      "hash": "sha256-NKdBKfSyPnKZDtzkQ7TnUozxBOffLtVusj3bn9kVKXw=",
+      "url": "logos\/cto.png"
+    },
+    {
       "hash": "sha256-r12xW87yNCA\/KC4x26LngrbRpMzHiITQj7CTgyBvtS4=",
       "url": "manifest.json"
     },
@@ -225,5 +233,5 @@
       "url": "sample-data\/weather.json"
     }
   ],
-  "version": "Tt9J64ff"
+  "version": "+KClgRfs"
 };

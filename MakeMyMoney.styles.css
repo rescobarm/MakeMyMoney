@@ -1,3 +1,23 @@
+/* /Pages/Counter.razor.rz.scp.css */
+.proyecto[b-7de0uyawgw] {
+    margin-bottom: 20px;
+}
+
+.titulo[b-7de0uyawgw] {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.barra-progreso[b-7de0uyawgw] {
+    width: 100%;
+    background-color: #f3f3f3;
+    border-radius: 5px;
+}
+
+.progreso[b-7de0uyawgw] {
+    height: 20px;
+    border-radius: 5px;
+}
 /* /Shared/MainLayout.razor.rz.scp.css */
 .page[b-jsdll6rykc] {
     position: relative;
