@@ -19,6 +19,7 @@ namespace MakeMyMoney.MAADRESystem.Globals.Cntrlls
     }
     public class AuthCntrllr : AuthenticationStateProvider, ILogInSrvc, ISignUpSrvc
     {
+        private readonly ILogger<AuthCntrllr> _logger;
         private readonly IWebTokenRepository tokenRepository;
         private readonly IUserFireBaseWSSrvc _sus;
         private readonly HttpClient _httpClient;
@@ -27,8 +28,10 @@ namespace MakeMyMoney.MAADRESystem.Globals.Cntrlls
             new ClaimsPrincipal()
         );
 
-        public AuthCntrllr(IWebTokenRepository tokenRepository, HttpClient httpClient, IUserFireBaseWSSrvc sus)
+        public AuthCntrllr(ILogger<AuthCntrllr> logger, 
+            IWebTokenRepository tokenRepository, HttpClient httpClient, IUserFireBaseWSSrvc sus)
         {//ISignUpSrvc
+            _logger = logger;
             this.tokenRepository = tokenRepository;
             this._httpClient = httpClient;
             this._sus = sus;
@@ -42,6 +45,9 @@ namespace MakeMyMoney.MAADRESystem.Globals.Cntrlls
             }
             catch (Exception ex)
             {
+                _logger.LogInformation($" --- ByREM *** => ({
+                        ex.Message
+                    });");
                 throw new Exception(ex.Message);
             }
         }
