@@ -33,11 +33,11 @@
       "url": "_framework\/icudt.dat"
     },
     {
-      "hash": "sha256-+TQ+gCXj8BFOe99FYbp7PksTxJMyBcFtf7bwHu20KJo=",
+      "hash": "sha256-nCdccnbnyi8uPC1rbRlX5e6OEwjJrHKqUuzDVjBpLP8=",
       "url": "_framework\/blazor.boot.json"
     },
     {
-      "hash": "sha256-aiDHRTPkY32a6qziZ\/WMc9C0iYAN+l0ae+jWjHv1j0w=",
+      "hash": "sha256-WjNnibXhE30uOVom3o0wkSU9axRLL1TUSGBve3yt2+A=",
       "url": "_framework\/MakeMyMoney.dll"
     },
     {
@@ -157,6 +157,10 @@
       "url": "_framework\/System.ComponentModel.dll"
     },
     {
+      "hash": "sha256-KHqQXCVsfPWZQ9JnzfAbJzUrBymsd+5Npu\/z2GCGur4=",
+      "url": "_framework\/System.Console.dll"
+    },
+    {
       "hash": "sha256-mrf6U925zQwPYhka6+MWty+1sXV5vh0N3BwAa65zL0M=",
       "url": "_framework\/System.Formats.Asn1.dll"
     },
@@ -189,7 +193,7 @@
       "url": "_framework\/System.Net.Primitives.dll"
     },
     {
-      "hash": "sha256-wpn+N9Ii7LXGXAvZHv+Rm486PXfcOFtx1TbdmWRNuXU=",
+      "hash": "sha256-6IM\/FJsCF3dYnHnPxobyaNDVwYXEj8YDJ1HV7JDA45M=",
       "url": "_framework\/System.Private.CoreLib.dll"
     },
     {
@@ -361,5 +365,5 @@
       "url": "sample-data\/weather.json"
     }
   ],
-  "version": "oV1BuL4Y"
+  "version": "tpN7xHJm"
 };
