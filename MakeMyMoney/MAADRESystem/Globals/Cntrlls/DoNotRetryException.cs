@@ -4,6 +4,7 @@
     {
         public DoNotRetryException(string message) : base(message)
         {
+            message = "Error controlado.";
         }
     }
 }
