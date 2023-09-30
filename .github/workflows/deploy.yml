@@ -19,12 +19,16 @@ jobs:
       uses: actions/setup-dotnet@v1
       with:
         dotnet-version: '7.0.x'
-    
+
     - name: Setup Secret Configuration
       run: |
         echo "{
           \"FirebaseKey\": \"${{ secrets.FIREBASE_KEY }}\"
         }" > appsettings.Production.json
+        
+    - name: Move appsettings.Production.json
+      run: |
+        mv appsettings.Production.json MakeMyMoney
     
     - name: Publish with dotnet
       run: dotnet publish --configuration Release --output build
