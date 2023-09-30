@@ -14,15 +14,15 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\MAIN_MAADRE\MAADRE.MDCS.KERNEL\MAADRE.MDCSI.KERNEL.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ServiceWorker Include="wwwroot\service-worker.js" PublishedContent="wwwroot\service-worker.published.js" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Data\Firebase\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MAADRE.MDCS.KERNEL\MAADRE.MDCSI.KERNEL.csproj" />
   </ItemGroup>
 
 </Project>
