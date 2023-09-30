@@ -33,11 +33,11 @@
       "url": "_framework\/icudt.dat"
     },
     {
-      "hash": "sha256-ZCSVrBkNCO\/OrRsv4o4aD+SnXPHCHhLOG7sBU2qoZc4=",
+      "hash": "sha256-+TQ+gCXj8BFOe99FYbp7PksTxJMyBcFtf7bwHu20KJo=",
       "url": "_framework\/blazor.boot.json"
     },
     {
-      "hash": "sha256-G8DfijwOUPkoGqmZHTqPzEySWup+6UueUIJ1K7Hg5Go=",
+      "hash": "sha256-aiDHRTPkY32a6qziZ\/WMc9C0iYAN+l0ae+jWjHv1j0w=",
       "url": "_framework\/MakeMyMoney.dll"
     },
     {
@@ -85,7 +85,7 @@
       "url": "_framework\/Microsoft.Extensions.DependencyInjection.dll"
     },
     {
-      "hash": "sha256-tg+20\/hV0vdsqrmiaY+6DL9asz57tyb0aKjozw7tHKQ=",
+      "hash": "sha256-ryL1DxmkHCk\/y4Ta4djI0L2Xp\/3iABw7XbySdJOB5Y0=",
       "url": "_framework\/Microsoft.Extensions.Http.dll"
     },
     {
@@ -97,7 +97,7 @@
       "url": "_framework\/Microsoft.Extensions.Logging.dll"
     },
     {
-      "hash": "sha256-ZzK732vLxf6WN+32vIvyqvJcFg4Uaqk0YwrbEMqcEoo=",
+      "hash": "sha256-TkHOOKNpwH8RTJMdMMsgur7MYkrZMRBFKUm18Cnkbm4=",
       "url": "_framework\/Microsoft.Extensions.Options.dll"
     },
     {
@@ -189,7 +189,7 @@
       "url": "_framework\/System.Net.Primitives.dll"
     },
     {
-      "hash": "sha256-C\/5ZNlr1dwJFECAtCIik8N32OcjSmiNavqd4HqnNfLU=",
+      "hash": "sha256-wpn+N9Ii7LXGXAvZHv+Rm486PXfcOFtx1TbdmWRNuXU=",
       "url": "_framework\/System.Private.CoreLib.dll"
     },
     {
@@ -361,5 +361,5 @@
       "url": "sample-data\/weather.json"
     }
   ],
-  "version": "4bUU5bWp"
+  "version": "oV1BuL4Y"
 };
