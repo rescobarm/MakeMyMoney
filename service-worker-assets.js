@@ -305,10 +305,6 @@
       "url": "_framework\/System.Xml.ReaderWriter.dll"
     },
     {
-      "hash": "sha256-AtOmW4KiMKXLuPFjXMH74G6Fn0q9R+EHW1mxFTRn17o=",
-      "url": "appsettings.json"
-    },
-    {
       "hash": "sha256-x7MViRhF0cIP6UV2E0p\/JVtlJC4s2wzz0+\/ydHJrUlo=",
       "url": "MakeMyMoney.styles.css"
     },
@@ -397,5 +393,5 @@
       "url": "sample-data\/weather.json"
     }
   ],
-  "version": "+zGsZOc1"
+  "version": "n3vDPQWW"
 };
