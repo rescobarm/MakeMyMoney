@@ -26,9 +26,9 @@ jobs:
           \"FirebaseKey\": \"${{ secrets.FIREBASE_KEY }}\"
         }" > appsettings.Production.json
         
-    - name: Move appsettings.Production.json
+    - name: Move appsettings.Production.json to wwwroot
       run: |
-        mv appsettings.Production.json MakeMyMoney
+        mv appsettings.Production.json MakeMyMoney/wwwroot
     
     - name: Publish with dotnet
       run: dotnet publish --configuration Release --output build
