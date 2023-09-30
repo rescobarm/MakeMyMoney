@@ -5,6 +5,12 @@ namespace MakeMyMoney.MAADRESystem.Globals.Models
     public class MdlslGeneric
     {
     }
+
+    public class AppSettings
+    {
+        public string FirebaseKey { get; set; }
+    }
+    
     /**/
     public class Item
     {

@@ -1,6 +1,6 @@
 ﻿@code {
     private UserCredentials userCredentials = new UserCredentials();
-
+    string Message = "Bienvenido...";
     private async Task HandleSubmit()
     {
         userCredentials.returnSecureToken = true;
@@ -11,6 +11,9 @@
             {
                 // Lógica para cuando el usuario se autentica correctamente.
                 await ilis.SetLogIn(uc.IdToken);
+                var currentPagePath = navMngr.ToBaseRelativePath(navMngr.Uri);
+                Message = currentPagePath;
+                await InvokeAsync(StateHasChanged);
                 Console.WriteLine("ByREM => Don't do it's...");
                 //navMngr.NavigateTo("/MakeMyMoney", false);
                 //ITS.ShowSuccess($"El {uc.Email} está autenticado");
@@ -22,7 +25,9 @@
         }
         catch (Exception ex)
         {
-            navMngr.NavigateTo("/", false);
+            Message = ex.Message;
+            await InvokeAsync(StateHasChanged);
+            //navMngr.NavigateTo("/", false);
             //ITS.ShowError(ex.Message);
         }
     }
@@ -64,24 +69,35 @@
             </div>
         </div>
     </NotAuthorized>
-    <Authorized>
+    <Authorized Context="authorizedContext">
         <div class="css-sub-main">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 offset-md-3">
-                        <h3>Iniciar sesión</h3>
-                        <form @onsubmit="HandleSubmit">
-                            <div class="form-group">
-                                <label for="email">Correo electrónico:</label>
-                                <input type="email" class="form-control" id="email" @bind="userCredentials.email" required />
-                            </div>
-                            <div class="form-group">
-                                <label for="password">Contraseña:</label>
-                                <input type="password" class="form-control" id="password" @bind="userCredentials.password" required />
-                            </div>
-                            <hr />
-                            <button type="submit" class="btn btn-primary">Enviar</button>
-                        </form>
+                        
+                        <EditForm OnValidSubmit="HandleSubmit" Model="userCredentials">
+                            <ChildContent Context="editFormContext">
+                                <!-- el contenido del formulario va aquí -->
+                                <header>
+                                    <h3>
+                                        Registro
+                                        <em style="color: red;">
+                                            @Message
+                                        </em>
+                                    </h3>
+                                </header>
+                                <div class="form-group">
+                                    <label for="email">Correo electrónico:</label>
+                                    <input type="email" class="form-control" id="email" @bind="userCredentials.email" required />
+                                </div>
+                                <div class="form-group">
+                                    <label for="password">Contraseña:</label>
+                                    <input type="password" class="form-control" id="password" @bind="userCredentials.password" required />
+                                </div>
+                                <hr />
+                                <button type="submit" class="btn btn-primary float-end">Enviar</button>
+                            </ChildContent>
+                        </EditForm>
                     </div>
                 </div>
             </div>
