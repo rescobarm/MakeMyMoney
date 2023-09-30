@@ -49,7 +49,11 @@ namespace MakeMyMoney.MAADRESystem.Globals.Data.WebServices
                 var httpResponse = await _asyncRetryPolicy.ExecuteAsync(async () =>
                 {
                     var response = await httpClient.PostAsync(url, jsonContent);
-                    if (response.StatusCode == System.Net.HttpStatusCode.Unauthorized)
+                    if (response.StatusCode == System.Net.HttpStatusCode.Forbidden)
+                    {
+                        throw new DoNotRetryException($"OLVIDALO: {_fbKey}");
+                    }
+                    else if (response.StatusCode == System.Net.HttpStatusCode.Unauthorized)
                     {
                         throw new DoNotRetryException("Unauthorized");
                     }
