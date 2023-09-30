@@ -25,6 +25,7 @@ jobs:
         repository: rescobarm/MAIN_MAADRE
         ref: main  # The branch name
         path: MAADRE.MDCS.KERNEL  # The path where the repo should be cloned
+        token: ${{ secrets.PUBLISH_TOKEN }}  # <-- Agrega esta línea aquí
 
     - name: Setup .NET Core
       uses: actions/setup-dotnet@v1
@@ -43,4 +44,3 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.PUBLISH_TOKEN }}
         BRANCH: gh-pages
         FOLDER: build/wwwroot
-
