@@ -1,15 +1,13 @@
 {
   "cacheBootResources": true,
-  "config": [
-    "appsettings.json"
-  ],
+  "config": [ ],
   "debugBuild": false,
   "entryAssembly": "MakeMyMoney",
   "icuDataMode": 0,
   "linkerEnabled": true,
   "resources": {
     "assembly": {
-      "MakeMyMoney.dll": "sha256-cxroPJhDB67Bof8GDE2bKZs7wjj2bhbagmgToHukWkI=",
+      "MakeMyMoney.dll": "sha256-YxfZzxnBxodLbDRX4gL7OsS1vo6vkQlpnhZS7XKNezs=",
       "Microsoft.AspNetCore.Authorization.dll": "sha256-fx8Pa7JVfTlXnZQQNjSXOBLgwJWx3obnDzFt7F98sKo=",
       "Microsoft.AspNetCore.Components.Authorization.dll": "sha256-1\/p3l5sYmmLTwP6UvyqsdddqcEj4yjO4DEBzflqTQEw=",
       "Microsoft.AspNetCore.Components.dll": "sha256-JZd2LaEwrmUOtSA5gHgZ\/z652O3r93I3ydHIMp+Veqk=",
