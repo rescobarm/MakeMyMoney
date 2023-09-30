@@ -48,7 +48,7 @@ namespace MakeMyMoney.MAADRESystem.Globals.Cntrlls
                 _logger.LogInformation($" --- ByREM *** => ({
                         ex.Message
                     });");
-                throw new Exception(ex.Message);
+                throw;
             }
         }
 

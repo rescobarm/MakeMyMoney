@@ -66,7 +66,7 @@ namespace MakeMyMoney.MAADRESystem.Globals.Data.WebServices
             }
             catch (DoNotRetryException ex)
             {
-                _logger.LogError(ex, $"Unauthorized error during sign up. URL: {url}");
+                _logger.LogError(ex, $"HTTP request error during sign-up");
                 // Manejar la excepción no autorizada según sea necesario.
                 throw;
             }
