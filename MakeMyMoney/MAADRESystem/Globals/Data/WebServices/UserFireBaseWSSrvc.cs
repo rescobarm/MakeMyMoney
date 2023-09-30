@@ -59,7 +59,7 @@ namespace MakeMyMoney.MAADRESystem.Globals.Data.WebServices
             }
             catch (Exception ex)
             {
-                _logger.LogInformation($" --- ByREM => ({DateTime.Now});");
+                _logger.LogInformation($" --- ByREM => ({ex.Message});");
                 await Task.Delay(5000);
                 throw new Exception(ex.Message, ex);
             }
