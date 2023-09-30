@@ -33,11 +33,11 @@
       "url": "_framework\/icudt.dat"
     },
     {
-      "hash": "sha256-yPnzBKhcoT0GSGbg3Ql2RMwM1YpndfHeSPGQFQpsd58=",
+      "hash": "sha256-ZCSVrBkNCO\/OrRsv4o4aD+SnXPHCHhLOG7sBU2qoZc4=",
       "url": "_framework\/blazor.boot.json"
     },
     {
-      "hash": "sha256-RBDYlTMtquezHmw+b0R7vT69ZrL7vngx+7+r2fq1qbI=",
+      "hash": "sha256-G8DfijwOUPkoGqmZHTqPzEySWup+6UueUIJ1K7Hg5Go=",
       "url": "_framework\/MakeMyMoney.dll"
     },
     {
@@ -337,7 +337,7 @@
       "url": "icon-512.png"
     },
     {
-      "hash": "sha256-3dnFu68uW\/ea7wkb3iJY1TYyxtJJ\/q\/KlxHcyxQjwH4=",
+      "hash": "sha256-u6UMXsvzFIC1AdBqiXBj0fgvMnWJnf8Cw8MaKDKCtLg=",
       "url": "index.html"
     },
     {
@@ -357,5 +357,5 @@
       "url": "sample-data\/weather.json"
     }
   ],
-  "version": "GEMa+bSN"
+  "version": "cFdYWBKb"
 };
