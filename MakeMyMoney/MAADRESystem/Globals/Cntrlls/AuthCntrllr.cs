@@ -1,18 +1,12 @@
-﻿using MAADRE.MDCSI.KERNEL.Globals.Interfaces;
-using MAADRE.MDCSI.KERNEL.Globals.Models;
-using MAADRE.MDCSI.KERNEL.Globals.Services;
+﻿using MakeMyMoney.MAADRESystem.Globals.Data.WebServices;
+using MakeMyMoney.MAADRESystem.Globals.Interfaces;
+using MakeMyMoney.MAADRESystem.Globals.Models;
 using Microsoft.AspNetCore.Components.Authorization;
-using System;
-using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
-using System.Linq;
 using System.Net.Http.Headers;
 using System.Security.Claims;
-using System.Text;
-using System.Text.Json;
-using System.Threading.Tasks;
 
-namespace MAADRE.MDCSI.KERNEL.Globals.Controllers
+namespace MakeMyMoney.MAADRESystem.Globals.Cntrlls
 {
     public interface ISignUpSrvc
     {
@@ -25,7 +19,7 @@ namespace MAADRE.MDCSI.KERNEL.Globals.Controllers
     }
     public class AuthCntrllr : AuthenticationStateProvider, ILogInSrvc, ISignUpSrvc
     {
-        private readonly ITokenRepository tokenRepository;
+        private readonly IWebTokenRepository tokenRepository;
         private readonly IUserFireBaseWSSrvc _sus;
         private readonly HttpClient _httpClient;
 
@@ -33,7 +27,7 @@ namespace MAADRE.MDCSI.KERNEL.Globals.Controllers
             new ClaimsPrincipal()
         );
 
-        public AuthCntrllr(ITokenRepository tokenRepository, HttpClient httpClient, IUserFireBaseWSSrvc sus)
+        public AuthCntrllr(IWebTokenRepository tokenRepository, HttpClient httpClient, IUserFireBaseWSSrvc sus)
         {//ISignUpSrvc
             this.tokenRepository = tokenRepository;
             this._httpClient = httpClient;
@@ -66,8 +60,8 @@ namespace MAADRE.MDCSI.KERNEL.Globals.Controllers
             catch (Exception ex)
             {
                 //throw;  // Re-lanzando la excepción original.
-                        // o
-                throw new InvalidOperationException("An error occurred while logging in.", ex);  
+                // o
+                throw new InvalidOperationException("An error occurred while logging in.", ex);
                 // Incluyendo la excepción original como una excepción interna.
             }
 
@@ -96,6 +90,7 @@ namespace MAADRE.MDCSI.KERNEL.Globals.Controllers
 
             return jsonToken?.Claims ?? Enumerable.Empty<Claim>();
         }
+
         //private IEnumerable<Claim> ParseClaimsFromJwt(string jwt)
         //{
         //    var claims = new List<Claim>();

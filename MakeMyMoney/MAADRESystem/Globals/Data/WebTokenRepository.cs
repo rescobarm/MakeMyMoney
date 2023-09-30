@@ -1,12 +1,13 @@
-﻿using MAADRE.MDCSI.KERNEL.Globals.Interfaces;
+﻿
 using MakeMyMoney.MAADRESystem.Globals.Cntrlls;
+using MakeMyMoney.MAADRESystem.Globals.Interfaces;
 using Microsoft.JSInterop;
 using System.Security.Claims;
 using System.Text.Json;
 
 namespace MakeMyMoney.MAADRESystem.Globals.Data
 {
-    public class WebTokenRepository : ITokenRepository
+    public class WebTokenRepository : IWebTokenRepository
     {
         private readonly IJSRuntime _ijsrt;
         public static readonly string tknKey = "TOKENKEY";

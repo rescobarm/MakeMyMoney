@@ -30,12 +30,12 @@
 
 @inject NavigationManager navMngr
 @page "/sign-up"
-@using MAADRE.MDCSI.KERNEL.Globals.Controllers;
-@using MAADRE.MDCSI.KERNEL.Globals.Data;
-@using MAADRE.MDCSI.KERNEL.Globals.Interfaces;
-@using MAADRE.MDCSI.KERNEL.Globals.Models;
+@using MakeMyMoney.MAADRESystem.Globals.Cntrlls;
+@using MakeMyMoney.MAADRESystem.Globals.Interfaces;
+@using MakeMyMoney.MAADRESystem.Globals.Models;
 
-@inject ITokenRepository ITknRpostry
+
+@inject IWebTokenRepository ITknRpostry
 @inject ISignUpSrvc isus
 @inject ILogInSrvc ilis
 

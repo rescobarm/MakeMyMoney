@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Text.Json.Serialization;
-using System.Threading.Tasks;
+﻿using System.Text.Json.Serialization;
 
-namespace MAADRE.MDCSI.KERNEL.Globals.Models
+namespace MakeMyMoney.MAADRESystem.Globals.Models
 {
+    public class MdlslGeneric
+    {
+    }
+    /**/
     public class Item
     {
         public string Id { get; set; }

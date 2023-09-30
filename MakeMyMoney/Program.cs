@@ -1,9 +1,10 @@
 
-using MAADRE.MDCSI.KERNEL.Globals.Controllers;
-using MAADRE.MDCSI.KERNEL.Globals.Interfaces;
-using MAADRE.MDCSI.KERNEL.Globals.Services;
+
 using MakeMyMoney;
+using MakeMyMoney.MAADRESystem.Globals.Cntrlls;
 using MakeMyMoney.MAADRESystem.Globals.Data;
+using MakeMyMoney.MAADRESystem.Globals.Data.WebServices;
+using MakeMyMoney.MAADRESystem.Globals.Interfaces;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
@@ -17,11 +18,11 @@ builder.Services.AddScoped<AuthCntrllr>();
 builder.Services.AddScoped<AuthenticationStateProvider, AuthCntrllr>(p => p.GetRequiredService<AuthCntrllr>());
 builder.Services.AddScoped<ILogInSrvc, AuthCntrllr>(p => p.GetRequiredService<AuthCntrllr>());
 builder.Services.AddScoped<ISignUpSrvc, AuthCntrllr>(p => p.GetRequiredService<AuthCntrllr>());
-builder.Services.AddScoped<ITokenRepository, WebTokenRepository>();
+builder.Services.AddScoped<IWebTokenRepository, WebTokenRepository>();
 
 //UserFireBaseWSSrvc : ISignUpSrvc
 builder.Services.AddScoped<IUserFireBaseWSSrvc, UserFireBaseWSSrvc>();
-
-builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
 builder.Services.AddHttpClient();
+builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
+//builder.Services.AddHttpClient();
 await builder.Build().RunAsync();
