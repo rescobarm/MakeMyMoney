@@ -277,6 +277,10 @@
       "url": "MakeMyMoney.styles.css"
     },
     {
+      "hash": "sha256-aSFZHJ9+md5DaAouhHX5TDWDSRRPFdSbFRv53GgIVns=",
+      "url": "404.html"
+    },
+    {
       "hash": "sha256-10KEeWxsgry5D9LUZc0K86lpIg9RcWdyyBB5sXq6Ypk=",
       "url": "css\/app.css"
     },
@@ -337,7 +341,7 @@
       "url": "icon-512.png"
     },
     {
-      "hash": "sha256-u6UMXsvzFIC1AdBqiXBj0fgvMnWJnf8Cw8MaKDKCtLg=",
+      "hash": "sha256-bf9tiM\/mCUHIV7nHdMXZv6FUZ7dVF9mWULXNNI+nE3Q=",
       "url": "index.html"
     },
     {
@@ -357,5 +361,5 @@
       "url": "sample-data\/weather.json"
     }
   ],
-  "version": "cFdYWBKb"
+  "version": "0lsVmDUx"
 };
