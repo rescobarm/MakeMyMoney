@@ -1,47 +1,56 @@
 ﻿@page "/"
 
-<PageTitle>Index</PageTitle>
+@using Microsoft.AspNetCore.Components
+@using System.Collections.Generic
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Bienvenida - Nuestra Empresa</title>
-<style>
-    .directivos {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        margin-top: 50px;
-    }
-    .directivo {
-        margin: 0 20px;
-    }
-    .directivo img {
-        max-width: 100%;
-        border-radius: 50%;
-    }
-    .nombre, .cargo {
-        display: block;
-    }
-</style>
-</head>
-<body>
-
-<div class="directivos">
-    <div class="directivo">
-            <img src="/MakeMyMoney/logos/ceo.jpg" width="200" height="200" alt="Directivo 1">
-        <span class="nombre">ING. Erick</span>
-        <span class="cargo">CEO</span>
+<!-- Dashboard Component -->
+<div class="container mt-5">
+    <div class="row">
+        <!-- Columna de Gráfico 1 -->
+        <div class="col-lg-6">
+            <div class="card">
+                <div class="card-header">
+                    Gráfico de Encuesta 1
+                </div>
+                <div class="card-body">
+                    <!-- Marcador de posición para el gráfico -->
+                    <div id="chart1" style="height: 300px;">
+                        <!-- Aquí iría tu gráfico -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Columna de Gráfico 2 -->
+        <div class="col-lg-6">
+            <div class="card">
+                <div class="card-header">
+                    Gráfico de Encuesta 2
+                </div>
+                <div class="card-body">
+                    <!-- Marcador de posición para el gráfico -->
+                    <div id="chart2" style="height: 300px;">
+                        <!-- Aquí iría tu gráfico -->
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="directivo">
-            <img src="/MakeMyMoney/logos/cto.png" width="200" height="200" alt="Directivo 2">
-        <span class="nombre">ING. Rudyard</span>
-            <span class="cargo">CTO</span>
+
+    <div class="row mt-4">
+        <!-- Columna de Gráfico 3 -->
+        <div class="col-lg-12">
+            <div class="card">
+                <div class="card-header">
+                    Gráfico de Encuesta 3
+                </div>
+                <div class="card-body">
+                    <!-- Marcador de posición para el gráfico -->
+                    <div id="chart3" style="height: 300px;">
+                        <!-- Aquí iría tu gráfico -->
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
-
-</body>
-</html>
