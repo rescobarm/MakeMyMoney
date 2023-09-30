@@ -277,7 +277,7 @@
       "url": "MakeMyMoney.styles.css"
     },
     {
-      "hash": "sha256-aSFZHJ9+md5DaAouhHX5TDWDSRRPFdSbFRv53GgIVns=",
+      "hash": "sha256-oOBQpFTGWT+vnO4UWHbD6I1hTtDlBcbR2u0PDQuZ7n8=",
       "url": "404.html"
     },
     {
@@ -361,5 +361,5 @@
       "url": "sample-data\/weather.json"
     }
   ],
-  "version": "0lsVmDUx"
+  "version": "4bUU5bWp"
 };
