@@ -7,7 +7,7 @@
   "linkerEnabled": true,
   "resources": {
     "assembly": {
-      "MakeMyMoney.dll": "sha256-YxfZzxnBxodLbDRX4gL7OsS1vo6vkQlpnhZS7XKNezs=",
+      "MakeMyMoney.dll": "sha256-WISfQsN4S83iWYGjTWNDxSiZOWKXn++ImCfHPjqVRIM=",
       "Microsoft.AspNetCore.Authorization.dll": "sha256-fx8Pa7JVfTlXnZQQNjSXOBLgwJWx3obnDzFt7F98sKo=",
       "Microsoft.AspNetCore.Components.Authorization.dll": "sha256-1\/p3l5sYmmLTwP6UvyqsdddqcEj4yjO4DEBzflqTQEw=",
       "Microsoft.AspNetCore.Components.dll": "sha256-JZd2LaEwrmUOtSA5gHgZ\/z652O3r93I3ydHIMp+Veqk=",
@@ -18,7 +18,7 @@
       "Microsoft.Extensions.Configuration.Abstractions.dll": "sha256-kjyo51\/LrJnArywZBy6IbONxuSF4+lparCRuevgcApE=",
       "Microsoft.Extensions.Configuration.dll": "sha256-jRNoTlt+EXMPaAs8s3Bx7I0V8JUHiA8bQClBxFpgjvs=",
       "Microsoft.Extensions.Configuration.FileExtensions.dll": "sha256-Nn3M8b9tOkUf0cUMMN1O4e6Pt59m4VYif78QUf4k3W0=",
-      "Microsoft.Extensions.Configuration.Json.dll": "sha256-pNLMETrdEve7MwjdxHqrKHP1KghQRzbo49X2CAiHbSg=",
+      "Microsoft.Extensions.Configuration.Json.dll": "sha256-41gfYLEjU65yX7mhCVJlbvbF9aDUM7Q+n0NR2E6F0TA=",
       "Microsoft.Extensions.DependencyInjection.Abstractions.dll": "sha256-iVPX9IXO8+tnRTK5nbVd\/7cnPs5n9w7tp+jlne3Vjh8=",
       "Microsoft.Extensions.DependencyInjection.dll": "sha256-qi0kE7rp0kdsNqdL6DyPZEeimjUGvcLT4iWQX0YnRus=",
       "Microsoft.Extensions.FileProviders.Abstractions.dll": "sha256-HsN4oQI\/juJq4D4SBBoEiOR\/adONL0rvbyOhEx3l1Ts=",
@@ -27,7 +27,7 @@
       "Microsoft.Extensions.Http.dll": "sha256-ryL1DxmkHCk\/y4Ta4djI0L2Xp\/3iABw7XbySdJOB5Y0=",
       "Microsoft.Extensions.Logging.Abstractions.dll": "sha256-DWIbin1pB1d9pFpOuIIzZRCeflfMKU55Ry8Eh5E1qcw=",
       "Microsoft.Extensions.Logging.dll": "sha256-Sezvu1SpB+vPfYWMQ+LQtRpFvN9Ym3AvPDnKYCKxL14=",
-      "Microsoft.Extensions.Options.dll": "sha256-k9XISCK5fk9IUDDKqLl\/+QFebprK5dgTjSKpE\/Zpz8Q=",
+      "Microsoft.Extensions.Options.dll": "sha256-TkHOOKNpwH8RTJMdMMsgur7MYkrZMRBFKUm18Cnkbm4=",
       "Microsoft.Extensions.Primitives.dll": "sha256-1NbL4axw0uSduNqM8WHZkocYIPOi92xY+bHuIRug2TU=",
       "Microsoft.IdentityModel.Abstractions.dll": "sha256-BcLPDWXIt3xadJuskStoFwrzp3VRMsEZBxBJAK\/vxr8=",
       "Microsoft.IdentityModel.JsonWebTokens.dll": "sha256-zefAu0oHJ9aqKtDBWEp558WKnJAAwQhC3jTEytIYHxA=",
