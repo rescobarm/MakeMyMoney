@@ -11,7 +11,8 @@
             {
                 // Lógica para cuando el usuario se autentica correctamente.
                 await ilis.SetLogIn(uc.IdToken);
-                navMngr.NavigateTo("/", false);
+                Console.WriteLine("ByREM => Don't do it's...");
+                //navMngr.NavigateTo("/MakeMyMoney", false);
                 //ITS.ShowSuccess($"El {uc.Email} está autenticado");
             }
             else
