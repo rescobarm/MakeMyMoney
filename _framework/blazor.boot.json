@@ -1,8 +1,6 @@
 {
   "cacheBootResources": true,
-  "config": [
-    "appsettings.Production.json"
-  ],
+  "config": [ ],
   "debugBuild": false,
   "entryAssembly": "MakeMyMoney",
   "icuDataMode": 0,
